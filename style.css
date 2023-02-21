@@ -1,0 +1,84 @@
+body {
+    font-family: Montserrat;
+}
+
+.wrapper {
+    margin: 0 10%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 0.6rem;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus, a:visited {
+    color: black;
+}
+
+.content {
+    margin: 40px 20%;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.title {
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.desc {
+    width: 35%;
+    font-size: 0.6rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.desc :first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.desc span {
+    color: rgb(176, 194, 39);
+}
+
+.beer {
+    height: 0;
+    text-align: center;
+    transform: translateY(-550px);
+}
+
+.beer img{
+    width: 450px;
+}
